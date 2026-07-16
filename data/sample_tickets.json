@@ -1,0 +1,124 @@
+[
+  {
+    "id": "TCK-1001",
+    "channel": "email",
+    "subject": "Charged twice for my subscription",
+    "messages": [
+      { "role": "customer", "text": "Hi, I was billed twice this month for the Pro plan. Can you fix this?" },
+      { "role": "agent", "text": "Hi Sam, I'm sorry about the double charge — I can see it on our side. I've refunded the duplicate payment; it should land within 3-5 business days. I've also added a note to your account so it won't happen again. Anything else I can help with?" },
+      { "role": "customer", "text": "That was fast, thank you!" },
+      { "role": "agent", "text": "You're very welcome. Have a great day!" }
+    ]
+  },
+  {
+    "id": "TCK-1002",
+    "channel": "chat",
+    "subject": "Can't export my report",
+    "messages": [
+      { "role": "customer", "text": "The export button does nothing when I click it." },
+      { "role": "agent", "text": "Which browser are you on?" },
+      { "role": "customer", "text": "Chrome, latest version." },
+      { "role": "agent", "text": "Try again." },
+      { "role": "customer", "text": "Still nothing." },
+      { "role": "agent", "text": "Ok." }
+    ]
+  },
+  {
+    "id": "TCK-1003",
+    "channel": "email",
+    "subject": "How do I invite teammates?",
+    "messages": [
+      { "role": "customer", "text": "Where can I add my colleagues to the workspace?" },
+      { "role": "agent", "text": "Happy to help! Go to Settings > Members > Invite, enter their email, and pick a role (Admin or Member). They'll get an email invite that stays valid for 7 days. If anyone doesn't see it, ask them to check spam or let me know and I'll resend. Here's a short guide too: help.example.com/invite" }
+    ]
+  },
+  {
+    "id": "TCK-1004",
+    "channel": "chat",
+    "subject": "Refund request outside policy",
+    "messages": [
+      { "role": "customer", "text": "I forgot to cancel and got charged for the annual plan yesterday. Any chance of a refund?" },
+      { "role": "agent", "text": "Absolutely, I guarantee you a full refund and I'll make sure you're never charged again for anything, promise!" },
+      { "role": "customer", "text": "Great, thanks." }
+    ]
+  },
+  {
+    "id": "TCK-1005",
+    "channel": "email",
+    "subject": "Data not syncing",
+    "messages": [
+      { "role": "customer", "text": "My dashboard hasn't updated since yesterday. Numbers look frozen." },
+      { "role": "agent", "text": "Thanks for flagging this, Priya. I checked and your account was affected by a sync delay on one of our workers. I've manually re-triggered the sync and your dashboard is current now — can you confirm on your end? To prevent this we've also added your workspace to our monitoring alert. Sorry for the disruption." },
+      { "role": "customer", "text": "Confirmed, it's updating now. Appreciate the detail." }
+    ]
+  },
+  {
+    "id": "TCK-1006",
+    "channel": "chat",
+    "subject": "Angry about downtime",
+    "messages": [
+      { "role": "customer", "text": "Your app was down for an hour during our launch. This is unacceptable." },
+      { "role": "agent", "text": "It's not really our fault, these things happen. Check the status page next time." }
+    ]
+  },
+  {
+    "id": "TCK-1007",
+    "channel": "email",
+    "subject": "Feature request: dark mode",
+    "messages": [
+      { "role": "customer", "text": "Any plans for a dark theme? My eyes would thank you." },
+      { "role": "agent", "text": "Great suggestion, and you're not the first to ask! Dark mode is on our roadmap for this quarter. I've added your vote to the feature request so you'll get an email the moment it ships. In the meantime, if you use a browser dark-mode extension it works reasonably well with our app. Thanks for taking the time to write in!" }
+    ]
+  },
+  {
+    "id": "TCK-1008",
+    "channel": "chat",
+    "subject": "Password reset not arriving",
+    "messages": [
+      { "role": "customer", "text": "I requested a password reset three times and no email came." },
+      { "role": "agent", "text": "Sorry for the hassle. Reset emails come from no-reply@example.com — could you check spam and add us to contacts? I also see your address had a temporary bounce, which I've cleared, so a new reset link should arrive within a minute. I'll stay on the chat until you confirm you got it." },
+      { "role": "customer", "text": "Got it this time, resetting now." },
+      { "role": "agent", "text": "Perfect. Let me know if the new password works and you're all set." }
+    ]
+  },
+  {
+    "id": "TCK-1009",
+    "channel": "email",
+    "subject": "Which plan do I need?",
+    "messages": [
+      { "role": "customer", "text": "We're a team of 8 and need SSO. Which plan covers that?" },
+      { "role": "agent", "text": "SSO is on Business plan." }
+    ]
+  },
+  {
+    "id": "TCK-1010",
+    "channel": "chat",
+    "subject": "Billing address update",
+    "messages": [
+      { "role": "customer", "text": "I need to change the billing address on our invoices for tax reasons." },
+      { "role": "agent", "text": "Of course. You can update it under Settings > Billing > Company details, and it'll apply to all future invoices automatically. If you also need it corrected on an invoice already issued this month, tell me the invoice number and I'll have finance reissue it. Want me to do that for the latest one?" },
+      { "role": "customer", "text": "Yes please, invoice INV-4471." },
+      { "role": "agent", "text": "Done — a corrected INV-4471 with the new address is on its way to your email. Anything else?" }
+    ]
+  },
+  {
+    "id": "TCK-1011",
+    "channel": "email",
+    "subject": "App is slow",
+    "messages": [
+      { "role": "customer", "text": "Everything loads really slowly for me today." },
+      { "role": "agent", "text": "Have you tried restarting?" },
+      { "role": "customer", "text": "Yes, no change." },
+      { "role": "agent", "text": "Should be fine now." }
+    ]
+  },
+  {
+    "id": "TCK-1012",
+    "channel": "chat",
+    "subject": "Cancel my account",
+    "messages": [
+      { "role": "customer", "text": "I'd like to cancel my subscription, we're switching tools." },
+      { "role": "agent", "text": "Sorry to see you go, and thanks for giving us a try. You can cancel anytime under Settings > Billing > Cancel plan — your access stays active until the end of the current period, and there's no cancellation fee. If you'd be open to it, I'd love to hear what tipped the decision so we can improve. Either way, I've noted your account and you're free to export your data first via Settings > Export. Wishing you the best with the new setup!" }
+    ]
+  }
+]

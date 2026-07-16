@@ -1,0 +1,34 @@
+# Support quality rubric. Edit freely — the scorer reads this file at runtime,
+# so you can tune criteria, weights, and wording without touching code.
+name: "Support Quality v1"
+version: "1.0"
+scale_max: 5
+
+criteria:
+  - key: empathy
+    title: "Empathy & tone"
+    description: >
+      Did the agent acknowledge the customer's problem and stay polite,
+      warm, and professional throughout?
+    weight: 1.0
+
+  - key: resolution
+    title: "Resolution"
+    description: >
+      Did the agent actually solve the customer's problem or give a concrete
+      next step, rather than deflecting or leaving it open?
+    weight: 2.0
+
+  - key: completeness
+    title: "Completeness & clarity"
+    description: >
+      Did the reply address every part of the request clearly and without
+      leaving obvious follow-up questions unanswered?
+    weight: 1.5
+
+  - key: policy
+    title: "Policy compliance"
+    description: >
+      Did the agent avoid over-promising (guarantees, unconditional refunds,
+      unrealistic timelines) and stay within reasonable support boundaries?
+    weight: 1.5
